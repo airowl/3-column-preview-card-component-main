@@ -57,7 +57,7 @@ main{
 
 .labels{
     width: calc(100% / 3);
-    padding: 48px 0 48px 50px ;
+    padding: 48px 32px 48px 50px ;
 }
 
 #sedans_label{
