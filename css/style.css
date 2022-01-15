@@ -19,8 +19,13 @@ a{
     color: transparent;
 }
 
-a:visited{
+h1, p, a:visited{
     color: #fff;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
 }
 
 /* 
@@ -39,6 +44,3 @@ font-family: 'Lexend Deca', sans-serif;
     border-radius: 30px;
 }
 
-p{
-    color: #fff;
-}
