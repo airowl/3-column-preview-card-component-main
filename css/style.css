@@ -19,19 +19,23 @@ a{
     color: transparent;
 }
 
-h1, p, a:visited{
-    color: #fff;
-}
-
 h1{
     font-family: 'Big Shoulders Display', cursive;
     font-size: 40px;
 }
 
-/* 
-font-family: 'Big Shoulders Display', cursive;
-font-family: 'Lexend Deca', sans-serif;
- */
+h1, p, a:visited{
+    color: #fff;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 920px;
+}
 
 .big_btn{
     border: 1px solid red;
@@ -42,5 +46,22 @@ font-family: 'Lexend Deca', sans-serif;
     line-height: 50px;
     text-align: center;
     border-radius: 30px;
+}
+
+.labels{
+    width: calc(100% / 3);
+    border: 1px solid red;
+}
+
+#sedans_label{
+    background-color: hsl(31, 77%, 52%);
+}
+
+#suvs_label{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury_label{
+    background-color: hsl(179, 100%, 13%);
 }
 
