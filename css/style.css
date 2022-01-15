@@ -14,7 +14,27 @@ body{
     font-family: 'Lexend Deca', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: transparent;
+}
+
+a:visited{
+    color: #fff;
+}
+
 /* 
 font-family: 'Big Shoulders Display', cursive;
 font-family: 'Lexend Deca', sans-serif;
  */
+
+.big_btn{
+    border: 1px solid red;
+    width: 146px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 30px;
+}
