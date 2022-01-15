@@ -25,7 +25,7 @@ h1{
 }
 
 p{
-    font-size: 13px;
+    font-size: 12px;
     word-spacing: 3px;
     line-height: 1.8;
     letter-spacing: 1px;
@@ -45,6 +45,10 @@ main{
     height: 500px; /* forse da togliere*/
 }
 
+.mg-bottom{
+    margin-bottom: 43px;
+}
+
 .big_btn{
     width: 146px;
     height: 50px;
@@ -57,7 +61,7 @@ main{
 
 .labels{
     width: calc(100% / 3);
-    padding: 48px 32px 48px 50px ;
+    padding: 48px 40px 48px 50px ;
 }
 
 #sedans_label{
