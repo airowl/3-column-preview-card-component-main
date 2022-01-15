@@ -26,6 +26,9 @@ h1{
 
 p{
     font-size: 13px;
+    word-spacing: 3px;
+    line-height: 1.8;
+    letter-spacing: 1px;
 }
 
 h1, p, a:visited{
@@ -43,7 +46,6 @@ main{
 }
 
 .big_btn{
-    border: 1px solid red;
     width: 146px;
     height: 50px;
     display: flex;
@@ -55,7 +57,7 @@ main{
 
 .labels{
     width: calc(100% / 3);
-    border: 1px solid red;
+    padding: 48px 0 48px 50px ;
 }
 
 #sedans_label{
