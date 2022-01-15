@@ -103,3 +103,41 @@ main{
 #sedans_text:hover, #suvs_text:hover, #luxury_text:hover{
     color: #fff;
 }
+
+@media only screen and (max-width: 375px){
+    
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        width: 327px;
+        max-height: 1000px;
+        height: auto;
+    }
+
+    .labels{
+        width: 327px;
+    }
+
+    #sedans_label{
+        background-color: hsl(31, 77%, 52%);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    #luxury_label{
+        background-color: hsl(179, 100%, 13%);
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .mg_bottom{
+        margin-bottom: 40px;
+    }
+    
+    .mg_bottom_p{
+        margin-bottom: 33px;
+    }
+
+}
