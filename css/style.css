@@ -104,14 +104,19 @@ main{
     color: #fff;
 }
 
-@media only screen and (max-width: 375px){
-    
+@media only screen and (max-width: 414px){
+
+    body{
+        height: 1500px;
+    }
+
     main{
         display: flex;
         flex-wrap: wrap;
         width: 327px;
-        max-height: 1000px;
+        /* max-height: 1000px; */
         height: auto;
+        position: relative;
     }
 
     .labels{
@@ -138,6 +143,11 @@ main{
     
     .mg_bottom_p{
         margin-bottom: 33px;
+    }
+
+    .attribution{
+        position: absolute;
+        top: 0;
     }
 
 }
